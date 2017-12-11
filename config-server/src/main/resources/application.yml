@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      label:  master
+      server:
+        git:
+          uri: https://github.com/lichaoqian1992/my-config-file/
+#          searchPaths:  my-config-file/config-client-dev.properties
+#          username: lichaoqian1992
+#          password: guess
